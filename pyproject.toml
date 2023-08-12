@@ -50,3 +50,11 @@ silicon = ["onnxruntime-silicon==1.13.1"]
 [project.urls]
 Repository = "https://github.com/s0md3v/roop"
 Documentation = "https://roop-ai.gitbook.io/roop"
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+strict_optional = false
